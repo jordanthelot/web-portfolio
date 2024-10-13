@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(70, 77, 64);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s
+}
+
+body.dark-theme {
+    background-color: black;
+    color: white
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-top: 1rem;
+}
+
+.theme-Toggle {
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    font-size: 1rem;
+}
+
+.theme-container {
+    display: flex;
+    justify-content: end;
+    background-color: black;
+    color: white;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem 0;    
+}
+
+.intro, .projects, .contact, .education {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.projects {
+    margin-bottom: 1rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
